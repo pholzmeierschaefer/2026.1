@@ -23,6 +23,15 @@ public class ExemploDecisaoRepeticao {
         System.out.println("j: " + j);
         j++;
     }
+
+    System.out.println();
+
+    
+
+
     }
+
+   
+
 } 
 

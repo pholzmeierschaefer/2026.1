@@ -1,3 +1,9 @@
 //horario atendimento -- terças, 17:15 - 18:45 -- sala 202 bloco dos professores
 
+//javac NomeArquivo.java
+//java NomeArquivo
+
+Programa em java é composto por classes
+                                    |_ divisão de informações por semelhanças em blocos
+            
 
