@@ -3,8 +3,6 @@ import java.util.Scanner;
 public class Exercicio10 {
      public static void main(String[] args){
         int valor;
-        int sobra;
-
         Scanner sc = new Scanner(System.in);
         System.out.print("Digite o valor(inteiro): ");
         valor = sc.nextInt();
