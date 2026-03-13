@@ -1,0 +1,82 @@
+gcc  nome.c -o programa
+.\programa.exe
+
+
+bibliotecas
+stdio. - input/outpu
+string.h = trabalhar com string
+
+
+
+
+VETORES / STRINGS / FUNÇÃO
+
+VETORES
+
+tipo nome[tamanho]
+
+int main(){
+    int vetor[];
+    float vet[5000];
+
+    return 0;
+}
+
+
+int main(){
+    int vetor[4];
+
+    vetor [0] = 1;
+    vetor [1] = 1;      adiciona 1 a posicao entre []
+    vetor [2] = 1;
+    vetor [3] = 1;
+
+    return 0;
+}
+
+
+pode inicializar um vetor das seguintas formas
+
+int vetor[] = {1,2,3,4};
+int vetor[4] = {1,2,3,4};
+
+
+STRING
+
+int main(){
+    char string[20];
+    scanf("%s", string);            le o valor digitado até o primeiro espaço " " ou /0
+
+    printf("voce digitou: %s", string);
+    return 0;
+}
+
+
+nome = "teste"    ----->    strcpy(nome, "teste");
+
+if(strcmp(st"palavra")==0)   comparar string  - 0 quer dizer igual 1 quer dizer diferente   
+
+strlen(str);          ver o tamanho da string
+
+
+
+FUNÇÃO
+
+declara dentro do main
+              (        parametros        )
+tipo nomefunc (tipo nomepar, tipo nomepar){
+
+    return algumacoisa; (se for void nao precisa retornar)
+}
+
+
+
+
+
+
+
+
+
+
+
+
