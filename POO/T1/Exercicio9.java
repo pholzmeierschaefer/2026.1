@@ -12,7 +12,9 @@ public class Exercicio9 {
                 System.out.print("atrapalham ");            //atrapalham plural
     
             }
-        System.out.println("muita gente ");
+            System.out.println("muita gente ");
         }
+
+        System.out.println("\n");
     }
 }
