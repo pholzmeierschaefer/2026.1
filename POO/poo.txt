@@ -6,4 +6,11 @@
 Programa em java é composto por classes
                                     |_ divisão de informações por semelhanças em blocos
             
+objeto = atributos + metodos
+             |          |_ comportamento
+             |_ estado77
 
+
+
+
+             ]
