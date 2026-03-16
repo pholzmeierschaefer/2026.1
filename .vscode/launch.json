@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Programa_autor",
+            "request": "launch",
+            "mainClass": "Autor.Programa_autor",
+            "projectName": "2026.1_dad5cb1a"
+        },
+        {
+            "type": "java",
+            "name": "Programa_autor",
+            "request": "launch",
+            "mainClass": "Programa_autor",
+            "projectName": "2026.1_dad5cb1a"
+        },
+        {
+            "type": "java",
             "name": "Programa",
             "request": "launch",
             "mainClass": "exemplo.Programa",
