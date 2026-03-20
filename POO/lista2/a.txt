@@ -1,0 +1,6 @@
+
+Classe - Atributos
+Data - dia, mes, ano
+Contato - numero, wpp ou telegram
+Pessoa - nome, data nascimento, contato
+Agenda - pessoa

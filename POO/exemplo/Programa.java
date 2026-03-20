@@ -32,6 +32,30 @@ public class Programa {
 
 
 
+        Triangulo t1 = new Triangulo();
+        Triangulo t2 = new Triangulo();
+
+        t1.base = 2;
+        t1.altura = 3;
+        t2.base = 9;
+        t2.altura = 6;
+        System.out.println("tem dimensoes iguais: " + t1.temDimIguais(t2)); 
+
+        System.out.println("base antes de somar: "+ t1.base);
+        System.out.println("altura antes de somar: "+ t1.altura);
+        t1.somaTriangulo(t2);
+        System.out.println("base somada: "+ t1.base);
+        System.out.println("altura somada: "+ t1.altura);
+
+        System.out.println("base antes de somar: "+ t2.base);
+        System.out.println("altura antes de somar: "+ t2.altura);
+        t1.somaTriangulo2(t2);
+        System.out.println("base somada: "+ t2.base);
+        System.out.println("altura somada: "+ t2.altura);
+
+
+
+
     }
     
 }
