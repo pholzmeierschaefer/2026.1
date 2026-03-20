@@ -7,26 +7,34 @@ public class Agenda {
 
     void cadastrarPessoa(Pessoa p){
         if (numPessoas < 15){
-            for(int i = 0; i < 15; i++){
-                if(pessoas[i] == null){
-                    pessoas[i] = p;
+            
+                    pessoas[numPessoas] = p;
                     numPessoas ++;
-                }
-            }
+            
         }
     }
 
     void listarPessoas(){
         for(int i = 0; i < numPessoas; i ++){
             System.out.println("nome: " + pessoas[i].nome);
-            System.out.println("nascimento: " + pessoas[i].nascimento);
-            System.out.println("contato: " + pessoas[i].contatos);
+            System.out.println("nascimento: " + pessoas[i].nascimento.dia + "/" + pessoas[i].nascimento.mes + "/" + pessoas[i].nascimento.ano);
+            pessoas[i].listarContatos();;
         }
     }
 
-    void buscarNome(){
-
+    void buscarNome(String nome1){
+        boolean achou = false;
+        for(int i = 0; i < numPessoas; i++){
+            if(nome1.equals(pessoas[i].nome)){
+                System.out.println("nome: " + pessoas[i].nome);
+                System.out.println("nascimento: " + pessoas[i].nascimento.dia + "/" + pessoas[i].nascimento.mes + "/" + pessoas[i].nascimento.ano);
+                pessoas[i].listarContatos();
+                achou = true;
+                break;
+            }
+            if(!achou){
+                System.out.println("o contato nao foi encontrado");
+            }
+        }
     }
-
-
 }

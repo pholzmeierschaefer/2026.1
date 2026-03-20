@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "lista2.exercicio3agenda.Main",
+            "projectName": "2026.1_dad5cb1a"
+        },
+        {
+            "type": "java",
             "name": "ExemploComparacao",
             "request": "launch",
             "mainClass": "aula_20.ExemploComparacao",

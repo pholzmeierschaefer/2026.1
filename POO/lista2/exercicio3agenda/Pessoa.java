@@ -8,14 +8,10 @@ public class Pessoa {
 
 
     void cadastrarContatos(Contato c ){
-        if(numContatos < 4){
-            for(int i = 0; i < 4; i++){
-                if(contatos[i] == null){
-                    contatos[i] = c;
+        if(numContatos < 4){       
+                    contatos[numContatos] = c;
                     numContatos ++;     
-                }
             }
-        }
         else{
             System.out.println("a lista de contatos esta cheia");
         }
