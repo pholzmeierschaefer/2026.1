@@ -63,8 +63,8 @@ strlen(str);          ver o tamanho da string
 FUNÇÃO
 
 declara dentro do main
-              (        parametros        )
-tipo nomefunc (tipo nomepar, tipo nomepar){
+                (              parametros              )
+tipo nomefuncao (tipo nomeparametro, tipo nomeparametro){
 
     return algumacoisa; (se for void nao precisa retornar)
 }
