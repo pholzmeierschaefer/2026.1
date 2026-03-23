@@ -1,0 +1,9 @@
+
+
+construtores, sobrecarga e metodos estatisticos
+    |               |
+    |               |_
+    |
+    |_é oq chama depois do new (new Scanner(),...)
+        se implementar um construtor, o valor padrao dos atributos nao fica mais zerado por padrao nas classes
+

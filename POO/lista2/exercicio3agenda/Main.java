@@ -6,7 +6,7 @@ public class Main{
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         Agenda agenda = new Agenda();
-        int opcao = 1;
+        int opcao;
 
         
 
@@ -22,8 +22,6 @@ public class Main{
                 case 1:
                     System.out.println("Voce selecionou CADASTRAR PESSOAS");
                     for(int i = 0; i < 15; i++){
-
-                        System.out.println("\nCadastro " + (i + 1) + " de 15:");
                         
                         System.out.print("Digite o nome (0 para parar): ");
                         String nomeDigitado = sc.nextLine();
@@ -44,24 +42,24 @@ public class Main{
                         d.mes = sc.nextInt();
                         System.out.print("Ano de nascimento: ");
                         d.ano = sc.nextInt();
-                        sc.nextLine();
+                        sc.nextLine(); //ignora enter
                         
                         p.nascimento = d;
 
                    
                         Contato c = new Contato();
-                        System.out.print("Digite o número de telefone: ");
+                        System.out.print("Digite o numero de telefone: ");
                         c.numero = sc.nextLine();
-                        System.out.print("Tem WhatsApp? (true/false): ");
+                        System.out.print("Tem WhatsApp? (true(sim)/false(nao)): ");
                         c.wpp = sc.nextBoolean();
-                        System.out.print("Tem Telegram? (true/false): ");
+                        System.out.print("Tem Telegram? (true(sim)/false(nao)): ");
                         c.telegram = sc.nextBoolean();
                         sc.nextLine();
                    
                         p.cadastrarContatos(c);
                         agenda.cadastrarPessoa(p);
                         
-                        System.out.println("Pessoa '" + p.nome + "' cadastrada com sucesso!");
+                        System.out.println(p.nome + " cadastrada");
                     }
                     break;
 
