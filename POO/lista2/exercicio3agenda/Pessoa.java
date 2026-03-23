@@ -20,9 +20,9 @@ public class Pessoa {
 
     void listarContatos(){
         for(int i = 0; i < numContatos; i ++){
-                System.out.println("numero" + contatos[i].numero);
-                System.out.println("eh whatsapp" + contatos[i].wpp);
-                System.out.println("eh telegram" + contatos[i].telegram);
+                System.out.println("numero: " + contatos[i].numero);
+                System.out.println("eh whatsapp: " + contatos[i].wpp);
+                System.out.println("eh telegram: " + contatos[i].telegram);
         }
     }
 

@@ -19,6 +19,7 @@ public class Agenda {
             System.out.println("nome: " + pessoas[i].nome);
             System.out.println("nascimento: " + pessoas[i].nascimento.dia + "/" + pessoas[i].nascimento.mes + "/" + pessoas[i].nascimento.ano);
             pessoas[i].listarContatos();;
+            System.out.println();
         }
     }
 
@@ -32,9 +33,10 @@ public class Agenda {
                 achou = true;
                 break;
             }
-            if(!achou){
+            
+        }
+        if(!achou){
                 System.out.println("o contato nao foi encontrado");
             }
-        }
     }
 }
