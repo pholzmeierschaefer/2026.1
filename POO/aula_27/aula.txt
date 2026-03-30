@@ -1,0 +1,16 @@
+construtores
+
+controlar melhor os atributos
+
+assinatura e sobrecarga de métodos
+
+assinatura - desconsidera o tipo de retorno do método e também nome dos parametros 
+sobrecarga - varios metodos com o mesmo nome e assinatura diferente
+
+
+
+métodos e atributos estáticos
+pertencem à classe e não ao objeto
+
+
+
