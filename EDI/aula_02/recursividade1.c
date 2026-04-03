@@ -26,6 +26,4 @@ int main(){
 
     printf("%d\n", valb(base, expoente));
 
-
-
 }
