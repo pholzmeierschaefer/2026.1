@@ -1,0 +1,13 @@
+
+TAD
+nome_arquivo.h  -assinaturas das funções
+nome_arquivo.c  -implementação das funções (mesmo nome do header)
+    
+principal.c     -utiliza as funções 
+
+no principal.c #include <nome_arquivo.h>
+gcc -Wall principal.c nome_arquivo.c -o principal
+
+
+
+recursividade
