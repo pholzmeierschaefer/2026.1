@@ -1,0 +1,10 @@
+
+
+HERANÇA
+
+deixar os elementos comuns em uma unica classe e reutiliza-los
+
+classe nome_subclasse extends nome_superclasse(){}
+
+
+

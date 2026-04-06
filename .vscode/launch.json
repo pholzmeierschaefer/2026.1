@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Exercicio1",
+            "request": "launch",
+            "mainClass": "Exercicio1",
+            "projectName": "2026.1_81830d62"
+        },
+        {
+            "type": "java",
+            "name": "ExemploArrays",
+            "request": "launch",
+            "mainClass": "ExemploArrays",
+            "projectName": "2026.1_81830d62"
+        },
+        {
+            "type": "java",
             "name": "Main",
             "request": "launch",
             "mainClass": "lista2.exercicio3agenda.Main",
