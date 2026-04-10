@@ -1,0 +1,23 @@
+**ASSOCIAÇÃO**
+
+uma pessoa é dona de um cachorro
+um usuario tem uma reserva
+
+pessoa----------cachorro
+
+**AGREGAÇÃO**
+
+tem um ou todo parte
+
+um carro tem rodas
+
+carro <>---------rodas
+
+
+**COMPOSIÇÃO**
+
+um predio tem salas
+
+é tipo a agregação porém o negocio não existe sem o outro, as salas não existem sem o prédio
+
+prédio<->-------salas

@@ -1,19 +1,22 @@
 package aula_6;
 
 public class Forma {
-    private int x;
-    private int y;
+    protected int x;
+    protected int y;
+
     public void imprimePosicao() {
+        System.out.println();
+        System.out.println("A posição da forma é:");
         System.out.println(this.x);
         System.out.println(this.y);
     }
 
     public int getX() {
-        return x;
+        return this.x;
     }
 
     public int getY() {
-        return y;
+        return this.y;
     }
 
     public void setX(int x) {
