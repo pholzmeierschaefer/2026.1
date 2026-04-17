@@ -1,0 +1,46 @@
+
+
+LISTA ENCADEADA SIMPLES 
+
+first - null    
+new - elemento|next|
+
+cria novo elemento      
+    new malloc
+    dados
+    next-null   
+
+colocar na lista
+    //primeiro
+    if first == null 
+        first = new;
+    
+
+    //colocar antes do primeiro
+    new->next = first;
+    first = new;
+
+    //ultimo
+    ultimo = first;
+    while (ultimo->next != null){
+        ultimo = ultimo->next;
+        ultimo->next = new;
+
+    }
+
+    //meio
+    aux=first;
+    while(condição*aux->next->valor < new->valor*){
+        aux = aux->new;
+        new -> next = aux ->next
+        ant -> next = new;
+
+
+    }
+
+
+
+
+
+
+
