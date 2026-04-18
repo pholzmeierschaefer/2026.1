@@ -1,0 +1,31 @@
+1.
+implemente uma função recursiva que, 
+dados dois números inteiros base (b) e expoente (e), calcula o valor de be (e≥0).
+
+b^e (
+        se e == 0 entao 1           caso base 1
+        se e == 1 entao b           caso base 2
+        caso contrario bxb ^ (e-1)  caso recusivo
+)
+
+2.
+Implemente uma função recursiva que calcule o somatório dos elementos de um vetor passado por parâmetro.
+
+somaV(v,n) (
+                se n == 0 entao v[0]                    caso base
+                caso contrario v[n] + somaV(v, n-1)     caso recusivo
+)
+
+
+3.
+Implemente uma função recursiva que calcule o máximo divisor comum (mdc) entre dois números.
+    Por exemplo, o mdc de 12 e 18 é 6
+
+Definição (Algoritmo de Euclides):
+    mdc (m,n) (
+                se n == 0 entao m               caso base
+                caso contrario mdc(n, m%n)      caso recusivo
+    )
+
+
+

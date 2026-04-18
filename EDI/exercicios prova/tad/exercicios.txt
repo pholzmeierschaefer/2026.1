@@ -1,0 +1,8 @@
+Exercício
+Implemente um TAD que represente frações e as operações sobre as mesmas 
+    Atribuição
+    Multiplicação 
+    Divisão
+    Opcional:
+        Adição e subtração (tem que calcular o MMC, ou usar a fórmula geral)
+            

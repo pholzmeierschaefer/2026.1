@@ -1,0 +1,8 @@
+1. Crie um programa que lê 5 valores inteiros, armazena-os em um vetor e, em
+seguida, mostre na tela os valores lidos.
+
+
+2. Faça uma função que receba um vetor e o seu tamanho como parâmetro e
+imprima o maior e o menor elemento do vetor.
+a.
+Esta função é do tipo void pois não retorna nenhum valor
