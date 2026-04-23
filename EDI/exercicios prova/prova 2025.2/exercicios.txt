@@ -1,0 +1,54 @@
+
+struct tlist {
+    int valor;
+    struct tlist *next;
+};typedef struct tlist list;
+
+1 - (3 pontos) Um usuário pretende transformar (achator) valores inteiros estruturados como uma matriz bidimensional em uma lista encadeada simples.
+ Achatar significa transformar uma matriz 2D em ID (vetor). Utilizando a assinatura list *getList (int row, int col, int mat [row] [col]) em que row e col 
+ representam a quantidade de linhas e colunas, respectivamente, e mat é a matriz que armazena os números inteiros. Implemente a função que retorna o ponteiro 
+ da lista criada (não é necessário criar a main).
+
+
+2- 2. A função abaixo implementa a troca do valor passado como parâmetro (chave) pelo seu anterior. Caso o valor passado como parâmetro não exista
+ ou for o primeiro da lista, a lista é mantida sem alteração. Preencha as lacunas para completar este código colocando as repostas na FOLHA RESPOSTA.
+
+void swapElement (list *first, _________)
+
+list aux, ______;
+
+ant=first;
+
+for (aux = first; aux!= NULL; aux= aux->next){
+    if(_____==key) break;
+    ant = aux;
+}
+
+if(_______|| aux == NULL) return;
+int reserva = _________;
+ant->valor=_____________;
+aux->valor=reserva;
+return;
+
+3- Dada a definição recursiva abaixo que apresenta uma forma de calcular a parte inteira do log na base 2. 
+Por exemplo, log2(55) = 5, 781, mas pela definição abaixo retornaria 5, ou seja, 55 pode ser dividido 5 vezes por 2.
+ log2(n) = (
+                0 se n < 2
+                1+log2(n/2)
+            )
+
+Implemente uma função em C que calcula o logaritmo inteiro na base 2.
+
+
+4 - retângulo é uma figura geométrica composta por 4 lados, sendo que dois representam a altura (a) e dois a largura (1). 
+As medidas das alturas devem ser iguais, bem como das larguras, ou seja, um retângulo 4x10, tem as alturas igual a 4 e as larguras igual a 10.
+ A área de um retângulo é calculada multiplicando a altura pela largura; e o perímetro somando a altura e a largura e multiplicando por 2. 
+ Baseado nessa explicação crie um tipo abstrato de dado (TAD) que representa um retângulo com as seguintes operações:
+
+(a) Uma função setRect que recebe dois argumentos do tipo int (a altura e a largura), os armazena em uma variável do tipo Retângulo e retorna ésta variável. 
+Você pode optar por implemen- tar a função com retorno ou com passagem por referência (na forma ret-setRect(10,20) ou setRect(&ret, 10,20)).
+
+(b) Escreva duas funções, getArea e getPerim. Essas funções receberão um argumento do tipo Retângulo e retornam a área e o perímetro do retângulo passado 
+como argumento, respectiva- mente. Ambas retornam um valor inteiro.
+
+Faça apenas o heoc que representem o tipo abstrato de dado proposto.
