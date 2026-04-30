@@ -1,0 +1,4 @@
+ a + mult(a,b-1), com caso base b=1 retornando a
+
+ alternativa A
+
