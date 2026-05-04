@@ -1,0 +1,43 @@
+CLASSES ABSTRATAS
+
+
+não pode fazer no main 
+    new Forma()
+        quando for abstrata
+
+na representação coloca em italico
+
+abstract class Forma {
+    private int x;
+    private int y;
+    public void imprimePosicao() {
+        System.out.println(this.x);
+        System.out.println(this.y);
+    }
+    public abstract double calculaArea();
+}
+
+-------------------------------------^mãe---
+
+class Quadrado {
+    private int lado;
+    public double calculaArea() {
+        return lado * lado;
+ }
+}
+
+class Triangulo {
+    private int base;
+    private int altura;
+    public double calculaArea() {
+        return base * altura / 2;
+ }
+}
+
+class Circulo {
+    private int raio;
+    public double calculaArea() {
+        return 3.14 * raio * raio;
+ }
+}
+

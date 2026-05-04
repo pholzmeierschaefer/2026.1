@@ -1,0 +1,6 @@
+    if(g == NULL){
+        return
+    }
+
+    lista_feitico(g->prox);
+printf("%d, %s", g->poder, g->feitico);
