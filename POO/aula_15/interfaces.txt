@@ -1,0 +1,43 @@
+INTERFACES
+
+interfaces servem para "herdar" de dois pais diferentes
+
+interfaces são mais abstratas que uma classe abstrata
+
+////////////////////////////////////////////////////////////
+classe - veiculos
+interface - forma de locomoção
+
+subclasses, carro, moto, jetski, lancha, caminhao, ....
+////////////////////////////////////////////////////////////
+
+
+os atributos de uma interface devem ser estaticos //nao costuma-se usar atributos nelas
+
+nao pode ser instanciada
+mas pode usar variaveis de referencia que so tipo seja uma interface
+
+os metodos das interface devem sem implementados nas subclasses
+
+
+interface Pet{
+    public abstract void brinca();          //as implementações são sempre abstract
+    public abstract void rola();            //pois nao tem como definir algo em uma interface, entao vai ser implementado depois na subclasses
+    
+}
+
+
+class Cachorro extends Canino implements Pet{
+    asdsasdad
+    asdsasdadasd
+}
+
+
+
+
+
+
+
+
+
+

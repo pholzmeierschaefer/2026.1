@@ -4,8 +4,8 @@ public class Funcionarios extends Participantes {
     private String cargo;
 
 
-    public abstract void getDesc{
-        System.out.println("Cargo: \n", cargo);
+    public void getDesc(){
+        System.out.println("Cargo: " + cargo);
     }
     
 }

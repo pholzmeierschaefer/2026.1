@@ -5,8 +5,8 @@ public class Estudantes extends Participantes {
 
 
 
-    public abstract void getDesc{
-        System.out.println("Curso: \n", curso);
+    public  void getDesc(){
+        System.out.println("Curso: " + curso);
     }
     
     
