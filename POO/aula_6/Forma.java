@@ -1,6 +1,6 @@
 package aula_6;
 
-public class Forma {
+public abstract class Forma {
     protected int x;
     protected int y;
 

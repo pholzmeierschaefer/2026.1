@@ -2,8 +2,8 @@ package automacao;
 
 abstract class DispositivoEletronico {
 
-    String marca;
-    String modelo;
+    private String marca;
+    private String modelo;
 
 
     public String getModelo() {
@@ -22,7 +22,7 @@ abstract class DispositivoEletronico {
         this.marca = marca;
     }
 
-    abstract void ligar();
+    abstract public void ligar();
     abstract public void exibirInfos();
 	
 }

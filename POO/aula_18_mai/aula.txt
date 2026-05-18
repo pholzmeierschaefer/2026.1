@@ -1,0 +1,37 @@
+POLIMORFISMO
+
+operação de varios objetos de calsses diferentes usando elementos comuns
+
+
+class forma
+
+class quadrado extends forma
+
+class triangulo extends forma
+
+class circulo extrends forma
+
+lidar com as subclasses de uma vez só usando os elementos comuns da classe pai
+
+
+Forma[] formas = new Forma[9]; //criando vetor de tipo forma 9 elementos do tipo forma, mas ainda nao cria nenhum elemento
+
+formas[0] = new Quadrado();
+            pode botar triangulo ou circulo tbm em outras posicoes tbm
+
+
+for( int i = 0; i < formas.lenght; i ++){
+    formas[i].imprimePosicao();
+    System.out.println("area: " + formas[i].calculaArea(););
+    System.out.println();
+}
+
+para funcionar, os elementos/métodos precisam ser comum, ou seja precisam estar na classe pai
+
+
+
+
+
+    
+
+

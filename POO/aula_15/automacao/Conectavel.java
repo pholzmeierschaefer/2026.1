@@ -2,7 +2,7 @@ package automacao;
 
 interface Conectavel {
 
-    public void conectarWIFI();
+    abstract public void conectarWIFI();
 
     
 }

@@ -1,6 +1,6 @@
-package aula_6;
+package aula_18_mai;
 
-public class Main {
+class Main {
     public static void main(String[] args) {
         // Não é possível!
         // Forma f = new Forma();
@@ -12,7 +12,6 @@ public class Main {
         formas[3] = new Triangulo();
         formas[4] = new Triangulo();
         formas[5] = new Circulo();
-        formas[6] = new Circulo();
         formas[7] = new Circulo();
         formas[8] = new Circulo();
         formas[9] = new Retangulo();
@@ -61,4 +60,3 @@ public class Main {
         */
     }
 }
-

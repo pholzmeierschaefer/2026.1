@@ -4,7 +4,7 @@ public class Smartwatch extends DispositivoEletronico implements Conectavel {
 
     private String batimentos;
 
-    public void setBatimentos(int batimentos) {
+    public void setBatimentos(String batimentos) {
         this.batimentos = batimentos;
     }
     
