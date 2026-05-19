@@ -1,5 +1,9 @@
 package aula_18_mai;
 
+//compilar javac *.java
+//cd ..
+//java aula_18_mai.Main
+
 class Main {
     public static void main(String[] args) {
         // Não é possível!
