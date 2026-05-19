@@ -12,8 +12,9 @@ class Main {
         formas[3] = new Triangulo();
         formas[4] = new Triangulo();
         formas[5] = new Circulo();
+        formas[6] = new Circulo();
         formas[7] = new Circulo();
-        formas[8] = new Circulo();
+        formas[8] = new Retangulo();
         formas[9] = new Retangulo();
 
         System.out.println("raio: " + formas[5].getRaio());
