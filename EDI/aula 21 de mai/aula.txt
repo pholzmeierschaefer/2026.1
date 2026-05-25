@@ -1,0 +1,144 @@
+filas
+
+primeiro q entra primeiro que sai
+
+insere novo elemento sempre no final, lista simplesmente encadeada
+
+    fila com prioridade
+
+    fila circular (funciona melhor com vetor)
+
+
+typedef int Item;
+
+typedef struct TQueue{
+    Item item;
+    struct TQueue *next;
+} EQueue;
+
+typedef struct {
+    EQueue *head;
+    EQueue *tail;
+} Queue;
+
+Queue *queue;
+
+--------------------------------------
+
+typedef int Item;
+
+typedef struct TQueue {
+    Item item;
+    struct TQueue *next;
+} EQueue;
+
+EQueue *fila, *head, *tail;
+
+------------------------------------
+
+
+void enQueue(Queue *queue, Item item) //(coloca no final)
+
+void deQueue(Queue *queue, Item *item) ou Item deQueue(Queue *queue)  //(tira do primeiro)
+
+void initQueue(Queue *queue) //(inicia lista)
+
+int isEmpty(Queue *queue) //(ver se ta vazio)
+
+void freeAll(Queue *queue) //(liberar lista)
+
+
+
+
+
+
+
+
+
+PILHA
+
+empilhas as coisas e desempilha, da ultima colocada para a primeira
+
+typedef int Item;
+
+typedef struct elemStack {
+    Item item;
+    struct elemStack *next;
+} ElemStack;
+
+typedef struct {		
+    ElemStack *top;	
+} Stack;	
+
+Stack *stack;
+
+
+
+ 
+void push(Stack *s, Item item) //inserir{
+     ElemStack *aux;
+
+    // Cria um novo elemento da lista encadeada que representa a pilha e
+    // armazena neste novo elemento o item a ser inserido na pilha
+    aux = (ElemStack *)malloc(sizeof(ElemStack));
+    aux->item = item;
+
+    // Insere o novo elemento no início da lista encadeada que representa a
+    // pilha
+    aux->next = s->top;
+    s->top = aux;   
+}
+
+void pop (Stack *s, Item *item) //remover{
+     ElemStack *aux;
+
+    // Verificar se a pilha está vazia!
+
+    // Armazena o item a ser removido da pilha
+    *item = s->top->item; // ATENÇÃO: Depende da definição do tipo do item
+
+    // Armazena o primeiro elemento da lista encadeada que representa a pilha
+    // e remove este primeiro elemento da lista
+    aux = s->top;
+    s->top = s->top->next;
+
+    // Libera a memória alocada para o elemento removido
+    free(aux);
+
+}
+
+void initStack(Stack *s) //iniciar{
+    s->top = NULL;
+
+}
+
+int isEmptyStack(Stack *s) //esta vazio{
+      return (s->top == NULL);
+}
+//ou
+int isEmptyStack(Stack *s) {
+    if (s->top == NULL) return 1;
+    else return 0;
+}
+
+void freeStack(Stack *s) //liberar{
+    ElemStack *aux;
+
+    while (!isEmptyStack(s)) {
+        // Armazena o primeiro elemento da lista encadeada que representa a
+        // pilha e remove este primeiro elemento da lista
+        aux = s->top;
+        s->top = s->top->next;
+
+        // Libera a memória alocada para o elemento removido
+        free(aux);
+    }
+
+}
+
+
+
+
+
+
+
