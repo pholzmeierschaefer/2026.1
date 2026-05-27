@@ -1,4 +1,4 @@
-package prova2;
+package prova2.p2014;
 
 public class Triangulo extends Forma implements Transformavel {
     private int base;

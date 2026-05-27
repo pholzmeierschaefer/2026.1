@@ -1,4 +1,4 @@
-package prova2;
+package prova2.p2014;
 
 public class Retangulo extends Forma implements Rotacionavel {
     private int altura;

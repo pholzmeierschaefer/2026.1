@@ -1,4 +1,4 @@
-package prova2;
+package prova2.p2014;
 
 public class Ponto {
     private int x;

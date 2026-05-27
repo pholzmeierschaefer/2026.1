@@ -1,4 +1,4 @@
-package prova2;
+package prova2.p2014;
 
 abstract class Forma {
     private int x;

@@ -1,4 +1,4 @@
-package prova2;
+package prova2.p2014;
 //questao 2
 public class GerenciadorAlteracao {
     public void transforma(Forma[] formas){
