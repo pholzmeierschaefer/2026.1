@@ -63,8 +63,8 @@ class Vinho extends Bebida {
 }
 
 // Classe LojaBebidas
-class LojaBebidas {
+/*class LojaBebidas {
     private Vinho[] vinhos;
     private Cerveja[] cerveja;
-}
+}*/
 
