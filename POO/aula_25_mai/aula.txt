@@ -9,5 +9,64 @@
 
 POLIMORFISMO AINDA
 
+
+classe object
+    todas as classes herdam, se nao fazer extends W
+
 Métodos Final
+
+impedir que o método de uma classe possa ser sobrescrito numa sublasse (override)
+
+public final void nome(){
+    ...
+}
+
+    não é possivel herdar uma classe que seja final
+    porém se tiver um método final somente numa classe normal, pode herdar a classe somente o método que não podera ser sobreescrito
+
+DOWNCASTING
+
+tratamos os objetos das sublasses de maneira genérica
+
+
+
+
+    ((Circulo) formas[i]) //o tipo da variavel é sobrescrito por Circulo
+    //forma pode receber circulo, forma nao pode receber circulo
+
+
+
+    forma 
+    x, y
+
+    imprimePosicao()
+    are()
+
+
+    circulo
+    raio
+    circunf()
+
+
+
+    Forma f;
+    f = new Circulo();
+
+    c = f; //nao funciona
+    c = (Circulo) f;
+
+    couble circunf = c.circunf();
+
+testar ver se a classe pode ser usada
+    instanceof
+
+casting
+ajustar a calasse e tratar de forma mais generica
+
+
+
+
+
+
+
 

@@ -46,12 +46,10 @@ public class CentroCultural {
     
     public void comprarIngresso(String nomeDoEvento) {
         for (int i = 0; i < quantidadeAtual; i++) {
-            // Usa o equalsIgnoreCase para comparar ignorando letras maiúsculas/minúsculas
+            
             if (eventos[i].getNome().equalsIgnoreCase(nomeDoEvento)) {
                 
-                // Como você já colocou os "System.out.println" e as regras
-                // dentro do seu método comprarIngresso() na classe Evento, 
-                // basta chamar ele aqui!
+             
                 eventos[i].comprarIngresso();
                 return; // Encerra a busca, pois já achou o evento
             }
