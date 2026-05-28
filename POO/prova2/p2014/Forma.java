@@ -1,6 +1,6 @@
 package prova2.p2014;
 
-abstract class Forma {
+public abstract class Forma {
     private int x;
     private int y;
 

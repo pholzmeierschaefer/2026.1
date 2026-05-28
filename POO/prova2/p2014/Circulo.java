@@ -20,8 +20,6 @@ public class Circulo extends Forma implements Transformavel{
     }
 
    
-
-    
     
     @Override
      public void transformar(double escala) {
