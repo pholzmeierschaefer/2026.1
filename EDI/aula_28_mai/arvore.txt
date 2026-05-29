@@ -35,6 +35,36 @@ existe exatamente um caminho conectando cada par de vértices
 
        arvore de busca binaria
 
+
+    typedef struct node{
+        int value;
+        struct node *left, *right;
+    }Node;
+
+    newnodo=(Node *) malloc(sizeof(Node));
+    newnodo->value=value;
+    newnodo->left=NULL; 
+    newnodo->right=NULL;
+
+
+    Algoritmo adicionaNo(Node *raiz, Node *new){
+
+        if (raiz == NULL)
+        return new;
+        else
+            If (raiz→valor >= new→valor)
+                raiz→left = adicionaNo(raiz→left, new);
+        else
+            raiz→right =  adicionaNo(raiz→right, new);
+            fim se
+        fim se
+        return raiz;
+    }
+
+
+
+
+
     Node *getkey(Node *r, int key){
         Node *aux = r;
         if (r == NULL){ 
