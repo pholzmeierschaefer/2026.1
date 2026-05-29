@@ -1,0 +1,59 @@
+
+
+    Um nó (ou vértice) contém uma informação útil
+
+    Uma aresta é uma conexão entre dois nós
+
+    Um caminho é uma sequência de nós < v0, v1, v2, …, vk > tal que
+todos os nós da sequência são distintos
+
+existe uma aresta conectando vi-1 e vi para i = 1, 2, …, k
+
+    Uma árvore é formada por nós e arestas tais que
+existe exatamente um caminho conectando cada par de vértices
+    A ordem de uma árvore é dada pelo nó com maior número de arestas
+
+    Árvore binária
+    Definição recursiva. Uma árvore binária
+        ou não contém nenhum nó
+        ou é composta de um nó conectado                                                  0
+            a uma árvore binária chamada de subárvore esquerda do nó e                  0   0  
+            a uma árvore binária chamada de subárvore direita do nó
+    Em uma árvore binária, um filho de um nó é chamado de
+        filho esquerdo se ele é a raiz da subárvore esquerda do nó e
+        filho direito se ele é a raiz da subárvore direita do nó
+
+
+50, 70, 45, 65, 32, 26, 30, 66
+            50
+        45      70
+      32      65 
+    26          66
+       30         
+                    
+
+
+       arvore de busca binaria
+
+    Node *getkey(Node *r, int key){
+        Node *aux = r;
+        if (r == NULL){ 
+        return NULL;
+        }
+        while (aux != NULL){
+            if (aux->value==key) return aux;
+            if (key > aux->value){
+                aux = aux->right
+            }
+            else{
+            aux = aux->left
+          }
+        }
+        return NULL; (ou return aux;)
+    }
+
+    A altura de um nó n em uma árvore binária é a distância entre n e o seu descendente mais afastado (maior caminho). 
+        A altura da árvore é dada pela distância da raiz até a folha mais distante.
+    A profundidade de um nó é a distância deste até a raiz
+        É um forma semelhante ao cálculo da altura, mas agora não consideramos a folha mais afastada e sim o número de passos para chegar do elemento raiz até o elemento procurado.
+
