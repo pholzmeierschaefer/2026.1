@@ -14,10 +14,10 @@ public class Gerente extends Funcionario{
 
     
 
-    @Override
-    public double calcRemun(){                  
-        return super.calcRemun()+this.bonus;    //o super acessa o calcRemun da superclasse
-    }
+   // @Override
+  //  public double calcRemun(){                  
+    //    return super.calcRemun()+this.bonus;    //o super acessa o calcRemun da superclasse
+   // }
 
 
 

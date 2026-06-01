@@ -9,19 +9,19 @@ public class Main {
         formas[0] = new Quadrado();
         formas[1] = new Quadrado();
         formas[2] = new Quadrado();
-        formas[3] = new Triangulo();
-        formas[4] = new Triangulo();
+      //  formas[3] = new Triangulo();
+     //   formas[4] = new Triangulo();
         formas[5] = new Circulo();
         formas[6] = new Circulo();
         formas[7] = new Circulo();
         formas[8] = new Circulo();
         formas[9] = new Retangulo();
 
-        System.out.println("raio: " + formas[5].getRaio());
+       // System.out.println("raio: " + formas[5].getRaio());
 
         for(int i = 0; i < formas.length; i++) {
             formas[i].imprimePosicao();
-            System.out.println("area: " + formas[i].calculaArea());
+      //      System.out.println("area: " + formas[i].calculaArea());
             System.out.println();
         }
 

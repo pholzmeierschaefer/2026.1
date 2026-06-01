@@ -1,0 +1,38 @@
+PACOTES
+
+organizar sistemas maiores, para que não fiquem desorganizados e bagunçados
+    facilitar localização das classes
+    controle de acesso as classes   
+    evitar conflitos de classes com nomes repetidos
+
+    uma classe pode usar classes que estejam no mesmo pacotes, sem nenhuma ação especial
+
+    para usar classes de pacotes diferentes
+        a classe precisa ser public
+
+        para acessar tem 3 formas
+        -usar o nome completo da classe
+        -importar classe especifica do pacote
+        -importar com * pois importa todas as classes de um pacote
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+PERSISTÊNICA
