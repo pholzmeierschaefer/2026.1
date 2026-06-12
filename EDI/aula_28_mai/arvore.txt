@@ -24,11 +24,11 @@ existe exatamente um caminho conectando cada par de vértices
         filho direito se ele é a raiz da subárvore direita do nó
 
 
-50, 70, 45, 65, 32, 26, 30, 66
+50, 70, 45, 65, 32, 26, 30, 67
             50
         45      70
       32      65 
-    26          66
+    26          67
        30         
                     
 
